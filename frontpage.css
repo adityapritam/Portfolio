@@ -1,0 +1,87 @@
+#frontpage{
+    display: flex;
+    background-color: #2D3047;
+}
+.hero{
+    flex:0.8;
+    padding: 5rem;
+}
+#hero-name{
+    font-size: 80px;
+    font-family: sans-serif;
+    color:#ffffff;
+    margin:0px 0px 20px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    line-height: 0.95;
+}
+#hero-name span{
+    display: inline-block;
+    /* display inline block means the element stays in the line and take up whole of the space available. */
+    width: 12px;
+    height: 12px;
+    background-color: #F5A623;
+    border-radius: 50%;
+}
+.line{
+    height: 6px;
+    width: 80px;
+    background-color: #F5A623;
+    border-radius: 10px;
+    margin-top:20px; 
+    margin-bottom: 20px;
+}
+.hero-icon{
+    font-size: 30px;
+    margin-right: 20px;
+    line-height: 1.6;
+    color:#8B8FA8;
+}
+.hero2{
+    flex:1;
+    padding: 2rem;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+}
+#hero2-intro{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:30px;
+    font-weight: 800;
+}
+.hero2 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #8B8FA8;
+    padding-right: 30px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+#hero2-story{
+    font-size: 15px;
+    color:#F5A623;
+    cursor: pointer;
+    font-weight: 700;
+}
+#hero2-story:hover{
+    text-decoration: underline;
+}
+.active{
+    color: white;
+}
+.nav-options *{
+    font-weight: 600;
+}
+#services{
+    cursor: pointer;
+}
+#blog{
+    cursor: pointer;
+}
+#works{
+    cursor: pointer;
+}

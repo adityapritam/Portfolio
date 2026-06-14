@@ -1,0 +1,57 @@
+.message{
+    background-color: #252839;
+    padding:90px 60px;
+    display: flex;
+}
+#message-h1{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+#message-p{
+    color:#8B8FA8;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    padding-bottom: 2rem;
+}
+#message-email{
+    color: #F5A623;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.message-text{
+    flex:1;
+}
+.message-me{
+    flex:1;
+}
+#idea{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:white;
+    padding-bottom: 3rem ;
+}
+
+#contact-form *{
+    all:unset;
+    margin-bottom:30px;
+    padding:10px;
+    width: 500px;
+    border-bottom:0.5px solid #8B8FA8;
+    color: white;
+}
+#submit{
+    all:unset; 
+    padding: 10px;
+    border-radius: 10px;
+    color: #8B8FA8;
+    border:0.5px solid #8B8FA8;
+    cursor: pointer;
+}
+input::placeholder,
+textarea::placeholder{
+    color: rgba(255,255,255,0.6);
+}

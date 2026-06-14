@@ -1,0 +1,68 @@
+#secondpage *{
+    font-family: sans-serif;
+}
+#secondpage{
+    background-color: #252839;
+    display: flex;
+    /* margin-bottom: 5rem; */
+}
+.second-one{
+    flex:1;
+    padding:7rem 4rem;
+}
+.second-two{
+    flex: 1;
+    padding:4rem;
+    padding-top: 9rem;
+}
+#queries{
+    margin-top: 24px;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+#queries-p{
+    font-size: 20px;
+    color: #8B8FA8;
+    padding-right: 5rem;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+#queries-email{
+    text-decoration: underline;
+    color: #F5A623;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1rem;
+    letter-spacing: 1px;
+    padding-left: 0;
+    font-weight: 600;
+}
+#sec-quote{
+    margin-top: 20px;
+    font-size: 30px;
+    color:white;
+    margin-bottom: 50px;
+}
+.experience{
+    display: flex;
+}
+.text{
+    font-size: 13px;
+    color: #8B8FA8;
+}
+.exp-1{
+    padding-right: 5rem;
+}
+#count1{
+    font-size: 62px;
+    color: #F5A623;
+    font-weight: 900;
+}
+#count2{
+    font-size: 62px;
+    color: #F5A623;
+    font-weight: 900;
+}

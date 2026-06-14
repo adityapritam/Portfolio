@@ -1,0 +1,43 @@
+.thirdpage{
+    background-color: #2D3047;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skillplate{
+    display: flex;
+}
+.skill-box{
+    flex:1;
+    height: 18rem;
+    margin-right: 5px;
+    background-color: #333650;
+    color: white;
+    padding: 4rem;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+#web{
+    background-color: #F5A623;
+    color:black;
+}
+.techstack{
+    padding:80px 60px;
+}
+.tech-name{
+    width:20rem;
+    padding:40px 20px;
+    border: 1px solid #3D4055;
+    font-size: 18px;
+    color: #8B8FA8;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: default;
+}
+.tech1{
+    display: flex;
+}
+.tech2{
+    display: flex;
+}

@@ -1,0 +1,82 @@
+.fourth-page{
+    background-color: #252839;
+    padding:100px 60px;
+}
+#four-portfolio{
+    letter-spacing: 1.5px;
+    color: #8B8FA8;
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+.four-text{
+    display: flex;
+    padding-bottom: 4rem;
+}
+.four-head{
+    padding-top: 30px;
+    color: white;
+    font-size:45px;
+    padding-right: 10rem;
+    line-height: 50px;
+}
+.four-box1{
+    flex:1;
+}
+.four-box2{
+    flex:1;
+}
+.projectline{
+    display: flex;
+}
+#project-1{
+    height: 500px;
+    width: 100%;
+    padding: 40px;
+    background-image: url("https://media.licdn.com/dms/image/v2/D4D12AQGVw0sVZ7Kj-g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1673636348357?e=2147483647&v=beta&t=PSpU4mZFpMBmE14oWDnDwf5a8_4rdQUiCUKF_U-x584");
+    background-size: cover;
+}
+.prototype{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 3rem;
+}
+.project_title{
+    visibility: hidden;
+    letter-spacing: 3px;
+    color: #F5A623;
+}
+.project_text{
+    visibility: hidden;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+#linepro-1{
+    height: 350px;
+    padding: 40px;
+    background-image: url("https://media.istockphoto.com/id/1411195926/photo/project-manager-working-on-laptop-and-updating-tasks-and-milestones-progress-planning-with.jpg?s=612x612&w=0&k=20&c=5A0CEsRbIrgnci0Q7LSxbrUZ1pliXy8C04ffpnjnVIw=");
+    background-size: cover;
+    flex:1;
+}
+#linepro-2{
+    height: 350px;
+    padding: 40px;
+    background-image: url("https://files.selar.co/product-images/2024/products/Viclabulary/project-management-selar.co-65f60d5694847.jpg");
+    background-size: cover;
+    flex:1;
+}
+#proline-1{
+    height: 350px;
+    padding: 40px;
+    background-image: url("https://media.istockphoto.com/id/1385970223/photo/great-idea-of-a-marketing-strategy-plan-at-a-creative-office.jpg?s=612x612&w=0&k=20&c=6up_J8ekhYIbF3qiUEo9t28u8X-UrFNqwryyRhBl35w=");
+    background-size: cover;
+    flex:1;
+}
+#proline-2{
+    height: 350px;
+    padding: 40px;
+    /* background-image: url("https://media.istockphoto.com/id/1385970223/photo/great-idea-of-a-marketing-strategy-plan-at-a-creative-office.jpg?s=612x612&w=0&k=20&c=6up_J8ekhYIbF3qiUEo9t28u8X-UrFNqwryyRhBl35w=");
+    background-size: cover; */
+    flex:1;
+}

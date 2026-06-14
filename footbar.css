@@ -1,0 +1,21 @@
+.foot-bar{
+    padding:90px 60px;
+    background-color: #2D3047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foot-bar h3{
+    font-family: sans-serif;
+    margin-top:30px;
+    color:white;
+}
+
+.foot-box{
+    padding-top: 30px;
+}
+
+.hero-icon{
+    cursor: pointer;
+}
