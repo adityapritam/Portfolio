@@ -16,7 +16,7 @@
     padding-top: 30px;
     color: white;
     font-size:45px;
-    padding-right: 10rem;
+    padding-right: 5rem;
     line-height: 50px;
 }
 .four-box1{
@@ -24,6 +24,13 @@
 }
 .four-box2{
     flex:1;
+}
+#four-b2-text{
+    color:#8B8FA8;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-right: 5rem;
+    padding-top: 1rem;
 }
 .projectline{
     display: flex;

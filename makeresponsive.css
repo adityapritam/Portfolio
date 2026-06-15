@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+    #navbar{
+        justify-content: flex-start;
+    }
+    .nav-options{
+        margin-left: 5px;
+    }
+    .nav-options *{
+        margin:0px;
+        margin-top: 10px;
+    }
+    #frontpage{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        padding:2rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #hero2-intro{
+        font-size: 20px;
+    }
+    .hero2 p{
+        letter-spacing: 1px;
+    }
+    #queries-p{
+        padding-right: 0;
+    }
+    #secondpage{
+        flex-direction: column;
+    }
+    .second-one{
+        padding-bottom: 2rem;
+    }
+    .second-two{
+        padding-top:1rem;
+    }
+    #sec-quote{
+        font-size: 25px;
+    }
+    .thirdpage{
+        padding-left: 20px;
+    }
+    .skillplate{
+        padding-top: 5rem;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .skill-box{
+        height: 15rem;
+        margin-bottom: 1rem;
+        margin-right: 0px;
+    }   
+    .techstack{
+        padding: 5rem 0rem;
+    }
+    .tech-name{
+        padding:20px 0px;
+    }
+    .tech1{
+        padding-left: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tech2{
+        padding-left: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .four-text{
+        flex-direction: column;
+    }
+    .four-head{
+        padding-right: 0rem;
+    }
+    #four-b2-text{
+        padding-right: 0px;
+    }
+    .fourth-page{
+        padding:100px 20px;
+    }
+    #project-1{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #linepro-1{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #linepro-2{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #proline-1{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #proline-2{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .projectline{
+        flex-direction: column;
+    }
+    .blog{
+        flex-direction: column;
+    }
+    #blog-new{
+        padding-right: 0;
+        font-size:35px;
+    }
+    .forward-animation{
+        text-align: left;
+    }
+    .message{
+        flex-direction: column;
+    }
+    .message-me{
+        padding-top:3rem;
+    }
+
+    #contact-form *{
+        width:200px;
+    }
+    #submit{
+        width:100px;
+    }
+    .logo{
+        height: 35px;
+        width: 35px;
+    }
+    .mouth{
+        top:20px;
+    }
+}
