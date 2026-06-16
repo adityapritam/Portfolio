@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #181D33;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.side1{
+    border-right: 1px solid #54565e;
+    height: 100%;
+    padding: 2rem 2rem;
+    position: fixed;
+    color: white;
+    width: 17rem;
+    background-color: #181D33;
+}
+.fake-side1{
+    width: 17rem;
+    background-color: #fff;
+}
+.sidetext{
+    cursor: pointer;
+    font-size: 15px;
+    /* padding-top: 10px; */
+    display: block;
+}
+.block{
+    margin-top: 10px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: #20253C;
+    text-align: center;
+
+}
+#photo{
+    border-radius: 50%;
+}
+#photo img{
+    height: 40px;
+}
+.side2{
+    padding: 50px;
+    flex: 4;
+    height: 100%;
+    display: flex;
+    /* position: sticky; */
+}
+.side2 header{
+    background-color: #181D33;
+}
+.side2 header span{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+.side2 header h1{
+    /* padding-right: 10rem; */
+    margin-top: 10px;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+.hero-icon{
+    cursor: pointer;
+}
+.bottext{
+    color: #7B7D90;
+}
+.img-div{
+    margin-top: 20px;
+    height: 25rem;
+    width: 35rem;
+    background-image: url("The\ Day\ I\ Realized\ Coding\ Was\ More\ Than\ Just\ Syntax..png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: rebeccapurple; */
+}
+
+.side2 header h2{
+    color: white;
+    padding-top: 30px;
+}
+.side2 header p{
+    color:white;
+    font-size: 20px;
+    padding-right: 4rem;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.line2{
+    background-color: #E39521;
+    height: 3px;
+    width: 3rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.foot-bar{
+    padding:50px 0px;
+    padding-left: 10rem;
+    background-color: #2D3047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foot-bar h3{
+    font-family: sans-serif;
+    margin-top:30px;
+    color:white;
+}
+
+.foot-box{
+    padding-top: 30px;
+}
+
+#chosing_career{
+    padding-top: 30px;
+}
+@media (max-width: 935px) {
+    .side1{
+        display: none;
+    }
+    .fake-side1{
+        display: none;
+    }
+    .side2 {
+        width: 100%;
+        padding: 20px;
+    }
+    .foot-bar {
+        padding-left: 0;
+        width: 100%;
+    }
+    .img-div{
+        width:20rem;
+        height: 12rem;
+    }
+    #chosing_career{
+        font-size: 19px;
+    }
+    .side2 header p{
+        padding-right: 0px;
+    }
+
+}
