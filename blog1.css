@@ -128,3 +128,34 @@ html, body{
 .foot-box{
     padding-top: 30px;
 }
+
+#chosing_career{
+    padding-top: 30px;
+}
+@media (max-width: 935px) {
+    .side1{
+        display: none;
+    }
+    .fake-side1{
+        display: none;
+    }
+    .side2 {
+        width: 100%;
+        padding: 20px;
+    }
+    .foot-bar {
+        padding-left: 0;
+        width: 100%;
+    }
+    .img-div{
+        width:20rem;
+        height: 12rem;
+    }
+    #chosing_career{
+        font-size: 19px;
+    }
+    .side2 header p{
+        padding-right: 0px;
+    }
+
+}
