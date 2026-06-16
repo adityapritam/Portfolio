@@ -41,14 +41,14 @@ blogb[3].addEventListener("mouseleave", function() {
     cursor.style.width="15px";
 });
 blogb[0].addEventListener("click",function(){
-    window.location.href = "#";
+    window.location.href = "blog1.html";
 });
 blogb[1].addEventListener("click",function(){
-    window.location.href = "#";
+    window.location.href = "blog2.html";
 });
 blogb[2].addEventListener("click",function(){
-    window.location.href = "#";
+    window.location.href = "blog3.html";
 });
 blogb[3].addEventListener("click",function(){
-    window.location.href = "#";
+    window.location.href = "blog4.html";
 });
