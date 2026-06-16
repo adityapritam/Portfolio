@@ -23,6 +23,7 @@ html, body{
     border-right: 1px solid #54565e;
     height: 100%;
     padding: 2rem 2rem;
+    padding-top: 1.5rem;
     position: fixed;
     color: white;
     width: 17rem;
@@ -35,11 +36,10 @@ html, body{
 .sidetext{
     cursor: pointer;
     font-size: 15px;
-    /* padding-top: 10px; */
     display: block;
 }
 .block{
-    margin-top: 10px;
+    margin-top: 0px;
     padding:20px;
     border-radius: 10px;
     background-color: #20253C;
@@ -84,10 +84,9 @@ html, body{
     margin-top: 20px;
     height: 25rem;
     width: 35rem;
-    background-image: url("kiet-group-of-institutions-ghaziabad-232800.webp");
+    background-image: url("buildmyproject.png");
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-color: rebeccapurple; */
 }
 
 .side2 header h2{
