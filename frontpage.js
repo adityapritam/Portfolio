@@ -115,3 +115,10 @@ window.addEventListener("scroll", () => {
         blogNav.classList.remove("active");
     }
 });
+
+let stry2=document.getElementById("hero2-story");
+stry2.addEventListener("click", () => {
+    document.querySelector(".blog").scrollIntoView({
+        behavior: "smooth"
+    });
+});

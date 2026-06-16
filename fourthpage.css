@@ -87,3 +87,6 @@
     background-size: cover; */
     flex:1;
 }
+.prototype{
+    cursor: pointer;
+}
